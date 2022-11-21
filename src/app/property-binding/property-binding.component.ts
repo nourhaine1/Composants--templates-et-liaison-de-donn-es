@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./property-binding.component.css']
 })
 export class PropertyBindingComponent implements OnInit {
-  titre: string = "Partie 2: Property binding";
+  titre: string = "Partie 2: Property ";
   nom: string = "Nourhaine";
-  actif : boolean = true;
+  actif : boolean = false;
   constructor() { }
 
   ngOnInit(): void {
